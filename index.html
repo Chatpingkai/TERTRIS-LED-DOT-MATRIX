@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Example</title>
+    <link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="bar">
+            <div class="logo">
+                <h1>TETRIS</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section4">Poster</a></li>
+                    <li><a href="#section5">Source Code</a></li>
+                    <li><a href="#section6">Video Demo</a></li>
+                    <li><a href="#section7">Member</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    
+    <section id="section1">
+        <div class="project-info">
+            <h2>PROJECT PHYSICAL COMPUTING</h2>
+            <p class="a1">โครงงานนี้เป็นประเภท Microcontroller ใช้ led dot matrix max7219 </p>
+                <p class="a2">ควบคุมการบังคับเกม แทน Keyboard ในการเล่น</p>
+        </div>
+        <img src="image/Screenshot 2024-10-26 010407.png" alt="C" class="project-image">
+    </section>
+    
+
+    <section id="section2">
+            <div class="gridsec2">
+                <div class="abstract">
+                    <div class="abstract2">
+                    <h2>Abstract</h2>
+                    <p class="ab1">โครงงานนี้เป็นการใช้ Microcontroller ในการควบคุมการบังคับของเกม TETRIS ด้วยการแสดงผลผ่าน</p>
+                    <P class="ab2" >led dot matrix max7219 และควบคุมด้วย micro switch แทนการใช้ keyboard ปกติในการเล่น เราจะใช้ปุ่มต่างๆ <br>
+                    เป็นฟังก์ชันต่างๆของเกม TETRIS แทนการขยับทางด้านซ้าย, แทนการขยับทางด้านขวา, แทนการลงของวัตถุ, <br>
+                    แทนการหมุนของตัววัตถุ, แทนการเปลี่ยนไปวัตถุชิ้นต่อไป</p>
+                    </div>
+                </div>
+                <div class="equipment">
+                    <h2>อุปกรณ์</h2>
+                    <div class="equipment-container">
+                        <div class="eq1">
+                            <img src="image/Board Arduino.jpg" alt="A" class="equipment-image">
+                            <p>Board Arduino</p>
+                        </div>
+                        <div class="eq2">
+                            <img src="image/led dot matrix max7219.jpg" alt="B" class="equipment-image">
+                            <p>led dot matrix max7219</p>
+                        </div>
+                        <div class="eq3">
+                            <img src="image/Micro Switch.jpg" alt="A" class="equipment-image">
+                            <p>Micro Switch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    
+
+    <section id="section4">
+        <div class="conten4">
+            <h1>Poster</h1>
+        </div>
+        <div class="imgposter">
+            <img src="image/TETRIS.png" alt="" class="poster" >
+        </div> 
+    </section>
+
+    <section id="section5">
+        <div class="content5">
+            <div class="src"><h1 class="sect5">Source Code</h1></div>
+            <div class="sec5low"><img src="image/Screenshot 2024-10-26 010555.png" alt="Profile Image" class="profile-image">
+            <div class="button5">
+                <a href="https://github.com/Chatpingkai/TERTRIS-VOICE-VERSION" target="_blank">
+                    <button class="github-button">Github</button>
+                </a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section6">
+        <div class="content6">
+            <h1 class="sect6">Video Demo</h1>
+            <div class="videoo"><video class="video"  poster="image/keypad.png" controls>
+                <source src="image/video.mov" type="video/mp4">
+              </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="section7">
+        <div class="content7">
+            <h1>Member</h1>
+            <div class="member-grid">
+                <div class="member">
+                    <img src="source_code.png" class="member-image" alt="Profile Image">
+                    <p>นายกิตติพิชญ์ หิรัญวงศ์<br>รหัสนักศึกษา <strong>66070018</strong></p>
+                </div>
+                <div class="member">
+                    <img src="image/image.jpg" class="member-image" alt="Profile Image">
+                    <p>นางสาวสู่ขวัญ การุญ<br>รหัสนักศึกษา <strong>66070210</strong></p>
+                </div>
+                <div class="member">
+                    <img src="image/IMG_3861.jpg" class="member-image" alt="Profile Image">
+                    <p>นายชัชวาลย์ ทองศิริกุล<br>รหัสนักศึกษา <strong>66070250</strong></p>
+                </div>
+                <div class="member">
+                    <img src="image/pongsakon.JPG" class="member-image" alt="Profile Image">
+                    <p>นายพงศกร ศรีเจริญ <br>รหัสนักศึกษา <strong>66070292</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const bar = document.querySelector('.bar');
+    
+        menuToggle.addEventListener('click', () => {
+            bar.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        window.onload = function () {
+        window.scrollTo(0, 0);
+         };
+    </script>
+    
+</body>
+</html>
