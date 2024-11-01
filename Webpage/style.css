@@ -26,6 +26,7 @@ body {
     color: #000;
     display: flex;
     align-items: center;
+    font-family: "Bungee", sans-serif;
     /* justify-content: space-between; */
 }
 .logo h1 {
@@ -59,8 +60,6 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: lighter;
-
-    
 }
 
 nav ul li a:hover {
@@ -71,78 +70,70 @@ nav ul li a:hover {
 section {
     padding: 100px 0px;
     width: 100%; /* หรือ width: 100vw; */
-    /* height: 100vh; สูงเต็มหน้าจอ */
     display: flex;
     /* min-height: auto; */
     height: auto;
     
 }
 
-/* #section1 {
-    background-color: #ffff;
-    display: flex;
-    align-items: center; /* Centers vertically */
-    /* justify-content: center; /* Centers horizontally */
-    /* height: 40vh;
-    text-align: center; */
-
-
-
 #section1 {
-    background-color: #ffff;
+    background-color: #4e82c4;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 40vh; */
-    padding-top: 150px; /* เพิ่ม padding ด้านบนเพื่อลดการถูกบัง */
+    padding-top: 50px; /* เพิ่ม padding ด้านบนเพื่อลดการถูกบัง */
     flex-direction: row; 
     align-items: center;
-    /* gap: 20px; เพิ่มช่องว่างระหว่างข้อความและรูปภาพ */
     flex-wrap: wrap;
-    margin: 20px;
-    margin-bottom: 30px;
 }
 
 
 
 .project-info {
-    display: flex;
+    display: flexbox;
     width: 50%;
     height: auto;
-    
+    font-family: "Jua", "K2D";
     flex-wrap: wrap;
     flex-direction: row;
     padding: 20px;
+    margin-top: 0;
 }
 .project-info h2 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 55px;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-bottom: 5px;
-    width: 700px;
-    
+    color: white;
+    font-family: "Bungee", sans-serif;
 }
-.project-info p {
+.help {
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.a1 {
     font-size: 18px;
     line-height: 1.5;
     flex-wrap: wrap;
     flex-direction: row;
     width: 700px;
+    text-indent: 10%;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
 }
+
 .project-image {
     display: flex;
-    /* margin-left: 44%; */
-    justify-content: center; 
+    justify-content: center;
     max-width: 30%;
     height: auto;
     flex-wrap: wrap;
     flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
     margin-top: 30px;
-}
-.a1 {
-    text-indent: 10%;
-    flex-wrap: wrap;
 }
 
 #section2 {
@@ -165,7 +156,6 @@ section {
     /* display: grid;
     grid-template-rows : auto; */
     display: flex;
-    background-color: #4e82c4;
     width: 100%;
     min-height: 300px;
     height: auto;
@@ -174,24 +164,34 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 20px;
-}
-.abstract2{
-    margin: 20px;
+    font-family: "Jua", "K2D";
 }
 
 .abstract2 h2 {
     margin-top: 0px;
     font-size: 40px;
-    color: #fff;
+    color: #000000;
     font-weight: bolder;
     /* margin-left: 15%; */
     /* margin-top: 40px; */
 }
 .abstract2 p{
-    margin-top: 20px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
-    color: #fff;
+    color: #000000;
     text-indent: 70px;
+    width: 80%;
+}
+
+#section3 {
+    background-color: #4e82c4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    scroll-margin-top: 80px;
 }
 
 .equipment {
@@ -201,7 +201,9 @@ section {
 }
 
 .equipment h2 {
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
+    font-family: "Jua", "K2D";
     margin-bottom: 20px;
 }
 
@@ -210,6 +212,8 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+    color: white;
+    font-family: "Jua", "K2D";
 }
 
 .equipment-image {
@@ -220,8 +224,7 @@ section {
 }
 
 .equipment p {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 25px;
 } 
 
 #section4 {
@@ -239,6 +242,7 @@ section {
     width: 35%;
     flex-wrap: wrap;
     flex-direction: row;
+    font-family: "Jua", "K2D";
 }
 .imgposter{
     display: flex;
@@ -260,8 +264,8 @@ section {
     background-color:#4e82c4;
     justify-content: center;
     padding: 20px;
-    gap: 20px; /* Adjust the gap as needed */
     height: auto;
+    margin: auto;
 }
 
 .content5{
@@ -270,6 +274,7 @@ section {
     height: 100%;
     width: 100%;
     flex-direction: column;
+    font-family: "Jua", "K2D";
 }
 
 /* Profile Image Styles */
@@ -277,11 +282,8 @@ section {
     width: 40vh; /* Adjust as needed */
     height: 50vh;
     max-height: 400px;
+    max-width: 600px;
     margin-right: 100px; /* Adds space between the image and button */
-}
-
-.src{
-    height: 22vh;
 }
 
 .sect5{
@@ -289,9 +291,7 @@ section {
     margin-left: 5%; 
     font-size: 45px;
     color: #ffffff;
-    margin-top: 70px;
-    margin-bottom: 10px;
-    
+    margin-top: 30px;
 }
 .button5 {
     display: flex;
@@ -309,12 +309,13 @@ section {
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: flex;
+    font-family: "Jua", "K2D";
 }
 
 .sec5low {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Aligns items at the top */
+    margin: auto;
 }
 
 #section5 a{
@@ -338,6 +339,7 @@ section {
     font-size: 45px;
     color: #000000;
     margin-bottom: none;
+    font-family: "Jua", "K2D";
 }
 
 .content6 {
@@ -380,6 +382,7 @@ section {
     align-content: center;
     width: 100%;
     flex-direction: column;
+    font-family: "Jua", "K2D";
 }
 
 #section7 h1 {
@@ -400,6 +403,8 @@ section {
    justify-content: center;
    padding-bottom: 2%;
    margin-top: 70px;
+   gap: 50px;
+   font-family: "Jua", "K2D";
 }
 
 .member {
@@ -409,36 +414,53 @@ section {
 }
 
 .member-image {
-    width: 40vh; /* Increase width of images */
-    height: 42vh; /* Increase height of images */
+    width: 30vh; /* Increase width of images */
+    height: 37vh; /* Increase height of images */
 }
 
 .member p {
     font-size: 16px;
     line-height: 1.5;
+    color: white;
 }
 
 .content {
     max-width: 100%;
 }
 
-
-
 p {
     font-size: 18px;
 }
-
 
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
 }
 
+@media (max-width: 1024px){
+    .logo h1 {
+        font-size: 30px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+    .a1 {
+        width: 400px;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
+    .logo h1 {
+        font-size: 50px;
+    }
+
     nav ul {
         flex-direction: column;
         margin-right: 0;
+        display: none;
+        width: 100%;
     }
     
     nav ul li {
@@ -461,7 +483,7 @@ html {
     }
 
     .project-info {
-        width: 90%; /* Make the text container narrower */
+        width: auto; /* Make the text container narrower */
         margin: 0 auto; /* Center the content */
         padding: 0 10px; /* Add padding around the text for spacing */
         text-align: flex; /* Center-align the text */
@@ -469,12 +491,12 @@ html {
     }
 
     .project-info h2 {
-        font-size: 24px; /* Adjust font size for smaller screens */
+        font-size: 40px; /* Adjust font size for smaller screens */
     }
 
-    .project-info p {
-        font-size: 16px; /* Adjust font size for smaller screens */
-        line-height: 1.5;
+    .a1 {
+        width: auto;
+        font-size: 15px;
     }
 
     .project-image, .profile-image {
@@ -492,7 +514,7 @@ html {
         width: 90%; /* Make the image smaller to fit within the screen with padding */
         max-width: 100%; /* Ensure it does not exceed container size */
         height: auto; /* Maintain aspect ratio */
-        margin: 0 auto; /* Center the image */
+        margin: 0 20px; /* Center the image */
     }
 
     .button5 {
@@ -500,11 +522,6 @@ html {
         display: flex;
         justify-content: center;
     }
-}
-
-/* For smaller screens, hide the full nav and show the menu toggle */
-@media (max-width: 768px) {
-
     .video {
         width: 90%; /* For mobile screens, make the video 90% of container width */
         max-width: 500px; /* Further limit max width on small devices */
@@ -513,12 +530,6 @@ html {
     .bar {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    nav ul {
-        display: none;
-        flex-direction: column;
-        width: 100%;
     }
 
     .menu-toggle {

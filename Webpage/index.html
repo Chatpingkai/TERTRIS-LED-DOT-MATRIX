@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma Example</title>
+    <title>TETRIS</title>
     <link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +22,9 @@
             </div>
             <nav>
                 <ul>
+                    <li><a href="#section1">About</a></li>
                     <li><a href="#section2">Abstract</a></li>
+                    <li><a href="#section3">Equipment</a></li>
                     <li><a href="#section4">Poster</a></li>
                     <li><a href="#section5">Source Code</a></li>
                     <li><a href="#section6">Video Demo</a></li>
@@ -33,11 +42,18 @@
     <section id="section1">
         <div class="project-info">
             <h2>PROJECT PHYSICAL COMPUTING</h2>
-            <p class="a1">โครงงานนี้เป็นประเภท Microcontroller ใช้ led dot matrix max7219 
-            <br>ควบคุมการบังคับเกม แทน Keyboard ในการเล่น</p>
+            <p class="help">
+                <span style="color: red;">T</span>
+                <span style="color: orange;">E</span>
+                <span style="color: rgb(211, 211, 0);">T</span>
+                <span style="color: green;">R</span>
+                <span style="color: blue;">I</span>
+                <span style="color: purple;">S</span>
+            </p>
+            <p class="a1">โครงงานนี้เป็นประเภท Microcontroller ใช้ led dot matrix max7219 ในการแสดงผลและ ควบคุมการบังคับเกมด้วย micro switch แทน Keyboard ในการเล่น</p>
         </div>
         <div class="project-image">
-            <video controls autoplay muted width="200px">
+            <video autoplay muted loop width="250px">
                 <source src="image/Untitled video - Made with Clipchamp.mp4" type="video/mp4">
             </video>
         </div>
@@ -49,11 +65,13 @@
                 <div class="abstract">
                     <div class="abstract2">
                     <h2>Abstract</h2>
-                    <p>โครงงานนี้เป็นการใช้ Microcontroller ในการควบคุมการบังคับของเกม TETRIS ด้วยการแสดงผลผ่าน<br> dot matrix max7219 และควบคุมด้วย micro switch แทนการใช้ keyboard ปกติในการเล่น เราจะใช้ปุ่มต่างๆ <br>
-                        เป็นฟังก์ชันต่างๆของเกม TETRIS แทนการขยับทางด้านซ้าย, แทนการขยับทางด้านขวา, แทนการลงของวัตถุ, <br>
-                        แทนการหมุนของตัววัตถุ, แทนการเปลี่ยนไปวัตถุชิ้นต่อไป</p>
+                    <p>โครงงานนี้เป็นการใช้ Microcontroller ในการควบคุมการบังคับของเกม TETRIS ด้วยการแสดงผลผ่านdot matrix max7219 และควบคุมด้วย micro switch แทนการใช้ keyboard 
+                        ปกติในการเล่น เราจะใช้ปุ่มต่างๆเป็นฟังก์ชันต่างๆของเกม TETRIS แทนการขยับทางด้านซ้าย, แทนการขยับทางด้านขวา, แทนการลงของวัตถุ, แทนการหมุนของตัววัตถุ
+                    </p>
                     </div>
                 </div>
+    </section>
+    <section id="section3">
                 <div class="equipment">
                     <h2>อุปกรณ์</h2>
                     <div class="equipment-container">
@@ -75,9 +93,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
     </section>
-
     
 
     <section id="section4">
@@ -85,7 +101,7 @@
             <h1>Poster</h1>
         </div>
         <div class="imgposter">
-            <img src="image/TETRIS.png" alt="" class="poster" >
+            <img src="image/Poster_TETRIS.png" class="poster" >
         </div> 
     </section>
 
