@@ -12,6 +12,7 @@ TERTRIS-LED-DOT_MATRIX
 ## [อุปกรณ์ที่ใช้ทั้งหมด]
 
 ## [Poster]
+<img src="img/poster_tetris.pdf" width="200" height="200">
 
 ## [Demo Video](https://youtu.be/kFzVgla7_yU?feature=shared)
 สมาชิกกลุ่ม
