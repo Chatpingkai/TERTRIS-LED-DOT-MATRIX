@@ -19,7 +19,7 @@
 - **Micro Switch**<br>
 <img src="img/Micro_Switch.jpg" width="200" height="200"><br>
 
-## Poster
+## [Poster](Poster/poster_tetris.pdf)
 <img src="Poster/Poster_TETRIS.png" width="500" height="650">
 
 ## Website แสดงรายละเอียดโครงงาน
