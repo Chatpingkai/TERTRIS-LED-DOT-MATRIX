@@ -11,13 +11,13 @@ TERTRIS-LED-DOT_MATRIX
 
 ## อุปกรณ์ที่ใช้ทั้งหมด
 Arduino UNO R4 WiFi
-<img src="img/Board_Arduino.jpg" width="200" height="200">
+<img src="img/Board_Arduino.jpg" width="200" height="200"><br>
 Breadborad
-<img src="img/breadborad.jpg" width="200" height="200">
+<img src="img/breadborad.jpg" width="200" height="200"><br>
 Led Dot Matrix MAX7219
-<img src="img/led_dot_matrix_max7219.jpg" width="200" height="200">
+<img src="img/led_dot_matrix_max7219.jpg" width="200" height="200"><br>
 Micro Switch
-<img src="img/Micro_Switch.jpg" width="200" height="200">
+<img src="img/Micro_Switch.jpg" width="200" height="200"><br>
 
 ## Poster
 <img src="Poster/Poster_TETRIS.png" width="500" height="650">
