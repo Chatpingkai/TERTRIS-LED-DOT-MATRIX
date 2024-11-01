@@ -1,5 +1,5 @@
-# Physical Computing Project 2024 - IT KMITL
-TERTRIS-LED-DOT_MATRIX
+# Physical Computing Project TERTRIS LED DOT MATRIX - IT KMITL
+โปรเจครายวิชาการประมวลทางกายภาพ (PHYSICAL COMPUTING) รหัสวิชา06016409 ภาคเรียนที่ 1 ปีการศึกษา 2567
 
 ## บทคัดย่อ (abstract)
 โครงงานนี้เป็นการใช้ Microcontroller ในการควบคุมการบังคับของเกม TETRIS ด้วยการแสดงผลผ่าน Led Dot Matrix MAX7219 และควบคุมด้วย micro switch แทนการใช้ keyboard ปกติในการเล่น เราจะใช้ปุ่มต่าง ๆ เป็นฟังก์ชันต่าง ๆ ของเกม TETRIS แทนการขยับทางด้านซ้าย, แทนการขยับทางด้านขวา, แทนการลงของวัตถุ, แทนการหมุนของตัววัตถุ
