@@ -12,7 +12,7 @@ TERTRIS-LED-DOT_MATRIX
 ## [อุปกรณ์ที่ใช้ทั้งหมด]
 
 ## [Poster]
-<img src="img/Poster_TETRIS.png" width="500" height="650">
+<img src="Poster/Poster_TETRIS.png" width="500" height="650">
 
 ## [Demo Video](https://youtu.be/kFzVgla7_yU?feature=shared)
 สมาชิกกลุ่ม
