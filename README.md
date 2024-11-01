@@ -10,13 +10,13 @@ TERTRIS-LED-DOT_MATRIX
 3. เกมจะดำเนินต่อไปเรื่อย ๆ จนกว่าบล็อกจะกองเต็มจนถึงด้านบนสุดของหน้าจอ
 
 ## อุปกรณ์ที่ใช้ทั้งหมด
-- **Arduino UNO R4 WiFi**  
+- **Arduino UNO R4 WiFi**<br>
 <img src="img/Board_Arduino.jpg" width="200" height="200"><br>
-- **Breadborad**
-<img src="img/breadborad.jpg" width="200" height="200"><br>
-- **Led Dot Matrix MAX7219**
+- **Breadborad**<br>
+<img src="img/breadborad.JPG" width="200" height="200"><br>
+- **Led Dot Matrix MAX7219**<br>
 <img src="img/led_dot_matrix_max7219.jpg" width="200" height="200"><br>
-- **Micro Switch**  
+- **Micro Switch**<br>
 <img src="img/Micro_Switch.jpg" width="200" height="200"><br>
 
 ## Poster
