@@ -19,7 +19,7 @@
 - **Micro Switch**<br>
 <img src="img/Micro_Switch.jpg" width="200" height="200"><br>
 
-## [Poster](file:///C:/Users/User/OneDrive/%E0%B9%80%E0%B8%94%E0%B8%AA%E0%B8%81%E0%B9%8C%E0%B8%97%E0%B9%87%E0%B8%AD%E0%B8%9B/poster_tetris.pdf)
+## [Poster](Poster/poster_tetris.pdf)
 <img src="Poster/Poster_TETRIS.png" width="500" height="650">
 
 ## Website แสดงรายละเอียดโครงงาน
